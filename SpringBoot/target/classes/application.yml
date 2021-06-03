@@ -1,0 +1,9 @@
+#设置应用的上下文路径，即项目路径
+server:
+  servlet:
+    context-path: /yao
+
+#绑定本地的国际化信息文件
+spring:
+  messages:
+    basename: i18n.login
